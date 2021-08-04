@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Cyber Incidents/Vulnerability</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<style>
+    .header
+    {
+        width: 100%;
+        height: 100px;
+        
+        /* font-family: "Montserrat", sans-serif; */
+        background-color: #000000;
+        color: white;
+    }
+    .article{
+        margin: 40px;
+    }
+    body{
+        font-size: 20px;
+    }
+</style>
+
+<body class="">
+    <header class="header sticky-top">
+    <h1 class="text-center font-weight-bolder p-3" style="font-size: 50px; ">Recent Cyber Incidents/Vulnerability</h1>
+</header>
+
+    <div class="container-fluid border-primary mt-5">
+        <h3 class="text-center ">Vulnerability Notes</h3>
+
+        <article class="article">
+            <span><b>Year 2021:</b><br><span>
+            <span><b>1.Multiple vulnerabilities in Intel Products:- June 17, 2021</b></span></br>
+            <span>These vulnerabilities exist in Intel products due to improper control of resource, improper input validation, improper access control, improper conditions check, insufficient control flow management, uncontrolled resource consumption, protection mechanism failure, out-of-bounds write error, incomplete cleanup, improper authentication, buffer overflow, path traversal, improper link resolution and uncontrolled search path element. Successful exploitation of these vulnerabilities could allow the attacker to escalate privileges or cause denial of service conditions on a targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>2.Multiple vulnerabilities in SAP Products:- June 17, 2021</b><br><span>
+            <span> These vulnerabilities exist in SAP products due to missing authorization check, improper input validation, improper authentication, memory corruption and other flaws in the affected software. Successful exploitation of these vulnerabilities could allow the attacker to execute arbitrary code, access sensitive information and perform other attacks on the targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>3.Priviledge Escalation Vulnerabilities in Intel NUC Firmware:- June 15, 2021</b><br><span>
+            <span> These vulnerabilities exist in Intel Products due to improper access control and buffer restrictions in system firmware for some Intel(R) NUCS. Successful exploitation of these vulnerabilities could allow a privileged user to potentially enable escalation of privilege via local access on the targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>4. Multiple Vulnerabilities in Google Android:- June 15, 2021</b><br><span>
+            <span> These vulnerabilities exist in Google Android due to flaws in the Framework components, Media Framework components, System components, Kernel components, MediaTek components, Qualcomm components, Qualcomm closed-source components. An attacker could exploit these vulnerabilities by hosting a specially crafted file. Successful exploitation of these vulnerabilities could allow the attacker to execute arbitrary code to disclose sensitive information, gain elevated privileges on the targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>5. Multiple Vulnerabilities in Linux Kernal:- June 15, 2021</b><br><span>
+            <span> A. Privilege Escalation Vulnerability (CVE-2021-3489 CVE-2021-3490):<br>
+
+                These vulnerabilities exists in the Linux kernels eBPF verification code due to improper handling of user-supplied eBPF programs prior to executing them. An attacker could exploit this vulnerability by executing low-privileged code in the context of the kernel. Successful exploitation of these vulnerabilities may allow an attacker to escalate privileges, execute code in the context of the kernel and poses a threat to data confidentiality and integrity.<br><br>
+                
+                B. Buffer overflow vulnerability (CVE-2021-3491 ):<br>
+                
+                This vulnerability exists due to improper handling of buffers in io_uring and improper enforcement of the MAX_RW_COUNT limit in some situations. Successful exploitation of this vulnerability may allow an attacker to create a heap overflow (a type of buffer overflow) leading to arbitrary code execution in the context of the kernel and cause denial of service (system crash) attack on the targeted system.
+                
+                </span>
+        </article>
+
+        <article class="article">
+            <span><b>Year 2020:</b><br><span>
+            <span><b>1.Multiple Vulnerabilities in Google Android:- December 28, 2020</b></span></br>
+            <span>These vulnerabilities exists in Google Android due to flaws in the Media Framework, System component, Kernel component, Broadcom components, MediaTek components, Qualcomm components and Qualcomm closed-source components. A remote attacker could exploit these vulnerabilities by hosting a specially crafted file designed to exploit the vulnerabilities. Successful exploitation of these vulnerabilities could allow remote attacker to perform arbitrary code execution within the context of a privileged process, gain elevated privileges, allow the attacker to access sensitive information from the targeted device and cause denial of service conditions on the targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>2.Multiple Vulnerabilities in Foxit Reader and Phantom PDF:- December 24, 2020</b><br><span>
+            <span> These vulnerabilities exist due to insufficient validation of objects, incorrect processing of PDF files, lack of proper validation when an incorrect argument is passed to the app media open Player function, access or use of a deleted pointer and array overflow issue. A remote attacker could exploit these vulnerabilities by sending specially crafted malicious file on the target system. Successful exploitation of these vulnerabilities could allow the attacker to cause Out-of-Bounds Write Remote Code Execution, Type Confusion Memory Corruption, denial of service condition or execute arbitrary code on the target system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>3.Multiple Vulnerabilities in Treck TCP/IP Stack:- December 24, 2020</b><br><span>
+            <span> Treck TCP/IP stack software is designed for and used in a variety of IoT and embedded systems. The software can be licensed and integrated in various ways, including compiled from source, licensed for modification and reuse and finally as a dynamic or static linked library. These vulnerabilities exist due to buffer overflow in the Treck HTTP Server component, out-of-bounds write in the IPv6 component, out-of-bound read in the DHCPv6.A remote attacker could exploit these vulnerabilities by sending specially crafted packets to the targeted system. Successful exploitation of these vulnerabilities allow a remote attacker to perform denial of service (DoS) attack or execute arbitrary code on the targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>4.Multiple Vulnerabilities in Mozilla Products:- December 24, 2020</b><br><span>
+            <span> These vulnerabilities exist in Mozilla products due to uninitialized memory error in Bigint, heap buffer overflow error or use-after-free in WebGL, improper sanitization of CSS Sanitizer, use-after-free in StyleGenericFlexBasis, improper security restrictions, improper processing of user supplied input, error while using proxy.onRequest callback request for view-source URLs, improper processing of downloaded files without extensions. Successful exploitation of these vulnerabilities could allow a remote attacker to execute arbitrary code, perform spoofing attacks, disclose potentially sensitive information, or cause denial of service conditions on the targeted system.</span>
+        </article>
+
+        <article class="article">
+            <span><b>5. Information Disclosure Vulnerabilities In GE Healthcare Products:- December 24, 2020</b><br><span>
+            <span> A. Information Disclosure Vulnerability (CVE-2020-25175 ): <br>
+
+                This vulnerability exists in GE Healthcare Imaging and Ultrasound Products due to unprotected transport of credentials. A remote attacker could exploit this vulnerability by gaining access to the network. Successful exploitation of this vulnerability could allow attacker to gain access to sensitive information on the targeted system. <br>
+                
+                B. Information Disclosure Vulnerability (CVE-2020-25179 ): <br>
+                
+                This vulnerability exists in GE Healthcare Imaging and Ultrasound Products because they allow exposed/default credentials to be utilized to access the system. An attacker could exploit this vulnerability by gaining access to the network. Successful exploitation of this vulnerability could allow attacker to gain access or modify the sensitive information on the targeted system.
+            </span>
+        </article>
+
+        <article class="article">
+            <span><b>Year 2019:</b><br><span>
+            <span><b>1.TP-Link Router Remote Code Execution Vulnerability:- December 24, 2019</b></span></br>
+            <span>This vulnerability exists in TP Link routers due to improper handling of HTTP requests. A remote attacker could exploit this vulnerability by sending an HTTP request including a character string longer than the allowed number, resulting in the user password being with a value zero. Successful exploitation of this vulnerability could allow the attacker to take complete control of the router.</span>
+        </article>
+
+        <article class="article">
+            <span><b>2.Microsoft SharePoint Server Information Disclosure Vulnerability:-December 24, 2019</b><br><span>
+            <span> This vulnerability exists in Microsoft SharePoint. By sending a specially crafted request to a susceptible SharePoint Server instance, a remote attacker could exploit this vulnerability to read arbitrary files on the server.</span>
+        </article>
+
+        <article class="article">
+            <span><b>3.Multiple Vulnerabilities in Intel Products:-December 16, 2019</b><br><span>
+            <span> A. Escalation of Privilege Vulnerability in Intel RST (CVE-2019-14568 ): <br>
+
+                This vulnerability exists in the Intel Rapid Storage Technology (RST) due to improper handling of permissions by the affected software. An authenticated attacker could exploit this vulnerability through local access to the system. Successful exploitation of this vulnerability could allow the attacker to get escalated privileges on the targeted system.
+                
+                B. Vulnerability in multiple Intel Processors ( CVE-2019-14607 ): <br>
+                
+                This vulnerability exists in multiple Intel Processors due to improper checking of conditions by the firmware. An attacker could exploit these vulnerabilities through local access to the targeted system.
+                
+                Successful exploitation of these vulnerabilities could allow the attacker to get escalated privileges, cause denial of service (DoS) conditions or access sensitive information on a targeted system.
+                
+                </span>
+        </article>
+
+        
+        <article class="article">
+            <span><b>4.Multiple Vulnerabilities in Microsoft Windows:-December 13, 2019</b><br><span>
+            <span> A. Microsoft Windows Win32k Privilege Escalation Vulnerability (CVE-2019-1458 ): <br>
+
+                This vulnerability exists in Microsoft windows due to improper handling of objects in memory. A local attacker could exploit this vulnerability by running a specially crafted application on the affected system. Successful exploitation of this vulnerability could allow the attacker to execute arbitrary code on the targeted system.
+                
+                B. Microsoft Windows Win32k Information Disclosure Vulnerability (CVE-2019-1469 ): <br>
+                
+                This vulnerability exists when the win32k component improperly provides kernel information. A local attacker could exploit this vulnerability by running a specially crafted application on the affected system. Successful exploitation of this vulnerability could allow the attacker to access sensitive information on the targeted system.
+                
+            </span>
+        </article>
+
+        <article class="article">
+            <span><b>5.Microsoft SQL Server Reporting Services XSS Vulnerability:- December 12, 2019</b><br><span>
+            <span> This vulnerability exists in Microsoft SQL Server Reporting Services due to improper sanitization of a specially-crafted web request to an affected SSRS server. An attacker could exploit this vulnerability by convincing an authenticated user to click a specially-crafted link to an affected SSRS server. Successful exploitation of this vulnerability could allow an authenticated attacker to run scripts in the context of the targeted user.
+            </span>
+        </article>
+
+        <h3 class="text-center">Virus Alert</h3>
+
+        <article class="article">
+            <span><b>1."Siloscape" Malware:- June 14, 2021</b><br><span>
+            <span><b>Virus Type: Malware Targeting Windows Containers</b><br><span>
+            <span> It has been reported that a new category of malware is targeting misconfigured Kubernetes clusters through Windows containers to compromise cloud environments. The malware variant gains initial access by exploiting vulnerabilities in common cloud applications or a vulnerable web page or database and then utilizes windows container escape techniques, executes code on underlying node and then spreads in poorly configured Kubernetes clusters to open a backdoor in order to run/deploy malicious containers. Once cluster is compromised, the attacker might be able to steal critical information such as usernames and passwords, an organizations confidential and internal files or even entire databases hosted in the cluster. This malware can leverage the computing resources in a Kubernetes cluster for crypto-jacking and potentially exfiltrate sensitive data from hundreds of applications running in the compromised clusters.</span>
+        </article>
+
+        <article class="article">
+            <span><b>2.Sarbloh Ransomware:-March 12, 2021</b><br><span>
+            <span><b>Virus Type: Ransomware</b><br><span>
+            <span> It has been reported that a new ransomware named "Sarbloh" is spreading via specially crafted malicious documents sent as spear phishing email attachments. Malicious document is embedded with Marco with a heavily obfuscated VBA code, which downloads original payload (Sarbloh Ransomware) from an AWS URL silently. Once executed, it encrypts files on affected system (Audio, images, video, databases, and other document files) and renames the encrypted files with the ".sarbloh" extension to make them unusable. The ransom note ("README_SARBLOH.txt") states that the user's files are encrypted and will not be recovered until Sarbloh's creator's demands are fulfilled.</span>
+        </article>
+
+        <article class="article">
+            <span><b>3.Adrozek Malware:- December 11, 2020</b><br><span>
+            <span><b>Virus Type: Browser Modifiers</b><br><span>
+            <span> It has been reported that a new malware named Adrozek is affecting user's device globally. It infects the device and then proceeds to modify web browsers and their settings in order to inject ads into search results pages.</span>
+        </article>
+
+        <h3 class="text-center mt-5 mb-3 ">Reporting Security Incident And Vulnerability</h3>
+
+        <div class="ml-5 "><span class="font-italic ">Follow the following steps to report security incident and vulnerability: <br><br>
+
+            1.Go to the website : <br><br>
+            
+            <a href="https://www.cert-in.org.in/">https://www.cert-in.org.in/</a> <br><br>
+            
+            2.Click on "Incident Reporting" / "Vulnerability Reporting" from Reporting section of the Menu Bar. <br><br>
+            
+            3.Click on the link "Security Incident Reporting Form"/"Reporting of a Vulnerability". <br><br>
+            
+            4.Fill the entire form and Mail or Fax this form.in the given Mail or Fax address.</span> <br><br>
+        </div>
+
+        <h3 class="text-center mt-5 mb-3 ">Complaint on National Cyber Crime Reporting Portal</h3>
+        <div class="ml-5 mb-5">
+            <span class="font-italic">
+                Follow the following steps to file a complaint regarding Cyber Crime: <br>
+                1. Go to the the website: <br> <br>
+                <a href="https://cybercrime.gov.in/"> https://cybercrime.gov.in/</a> <br><br>
+                2. Select Report Cyber Crime from Panel. <br><br>
+                3. Click on File a Complaint.<br><br>
+                4. Accept the Terms and Conditions. <br><br>
+                5. If you never have ever interacted with the website click on "New User" link, else go to step 9. <br><br>
+                6. Fill the registration form. <br> <br>
+                7. Fill User Profile Details <br><br>
+                8. Click on Update. <br><br>
+                9. Click on Next and Fill the Complaint Details. <br><br>
+                10. Click on Save as Draft and Next <br> <br>
+                11. After filling all Information Click on Submit ! <br> <br>
+                    And you're Done ! ! !</span>
+        </div>
+
+        <div class="ml-5 mb-5">
+            <h1 class="">References:</h1>
+            <div>
+                <a href="https://www.cert-in.org.in/">1. https://www.cert-in.org.in/</a><br>
+                <a href="https://cybercrime.gov.in/">2. https://cybercrime.gov.in/</a><br>
+            </div>
+        </div>
+
+        
+
+
+</div>
+     
+
+
+
+    
+</body>
+</html>
